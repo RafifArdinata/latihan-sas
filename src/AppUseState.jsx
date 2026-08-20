@@ -6,6 +6,7 @@ import Basic from './useRef/Basic';
 import LoginForm from './formUncotrolledVsControlled/LoginForm';
 import loginFormWithUseReff from './formUncotrolledVsControlled/loginFormWithUseReff';
 import LoginFormControlled from './formUncotrolledVsControlled/LoginFormControlled';
+import Tugas from './formUncotrolledVsControlled/Tugas';
 function AppUseState() {
   return (
     <div>
@@ -16,6 +17,7 @@ function AppUseState() {
       {/*<LoginForm/>*/}
       {/*<loginFormWithUseReff/>*/}
       {/*<LoginFormControlled/>*/}
+      <Tugas/>
     </div>
   );
 }
