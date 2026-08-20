@@ -11,51 +11,35 @@ function Tugas() {
   };
 
   return (
-    <div style={{
-      maxWidth: '350px',
-      margin: '50px auto',
-      padding: '20px',
-      borderRadius: '8px',
-      boxShadow: '0 4px 8px rgba(0,0,0,0.1)',
-      backgroundColor: '#fff',
-      fontFamily: 'sans-serif'
-    }}>
-      <h3 style={{ textAlign: 'center', marginTop: 0 }}>Sign Up</h3>
+    <div className="max-w-[350px] mx-auto my-12 p-5 rounded-lg shadow-md bg-white font-sans">
+      <h3 className="text-center mt-0 font-bold text-lg">Sign Up</h3>
 
       <form onSubmit={handleSubmit}>
-        <div style={{ marginBottom: '15px' }}>
-          <label style={{ display: 'block', marginBottom: '5px' }}>Username:</label>
+        <div className="mb-[15px]">
+          <label className="block mb-[5px]">Username:</label>
           <input
             type="text"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
             placeholder="Masukkan username"
-            style={{ width: '100%', padding: '8px', boxSizing: 'border-box', borderRadius: '4px', border: '1px solid #ccc' }}
+            className="w-full p-[8px] box-border rounded border border-gray-300"
           />
         </div>
 
-        <div style={{ marginBottom: '15px' }}>
-          <label style={{ display: 'block', marginBottom: '5px' }}>Password:</label>
+        <div className="mb-[15px]">
+          <label className="block mb-[5px]">Password:</label>
           <input
             type="password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             placeholder="Masukkan password"
-            style={{ width: '100%', padding: '8px', boxSizing: 'border-box', borderRadius: '4px', border: '1px solid #ccc' }}
+            className="w-full p-[8px] box-border rounded border border-gray-300"
           />
         </div>
 
         <button
           type="submit"
-          style={{
-            width: '100%',
-            padding: '10px',
-            backgroundColor: '#4CAF50',
-            color: 'white',
-            border: 'none',
-            borderRadius: '4px',
-            cursor: 'pointer'
-          }}
+          className="w-full p-[10px] bg-[green] hover:bg-[green] text-white border-none rounded cursor-pointer transition-colors"
         >
           Sign Up
         </button>
