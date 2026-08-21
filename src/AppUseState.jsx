@@ -13,7 +13,7 @@ function AppUseState() {
      {/* <Dasar /> */} 
       {/*<Praktik/> */}
       {/*<PraktikTwo/>*/}
-      {/*<Basic/>*/}
+      {/*} <Basic/>*/}
       {/*<LoginForm/>*/}
       {/*<loginFormWithUseReff/>*/}
       {/*<LoginFormControlled/>*/}
