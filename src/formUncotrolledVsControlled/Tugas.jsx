@@ -24,6 +24,7 @@ function Tugas() {
             placeholder="Masukkan username"
             className="w-full p-[8px] box-border rounded border border-gray-300"
           />
+          <p className='mt-2 bg-gray-300'>{username}</p>
         </div>
 
         <div className="mb-[15px]">
@@ -35,6 +36,7 @@ function Tugas() {
             placeholder="Masukkan password"
             className="w-full p-[8px] box-border rounded border border-gray-300"
           />
+            <p className='mt-2 bg-gray-300'>{password}</p>
         </div>
 
         <button
